@@ -1,0 +1,23 @@
+html, body {
+  height: 100%;
+}
+
+body{
+  margin: 0;
+  font-family: monospace;
+  font-size: 25px;
+}
+
+form{
+  padding-top: 25px;
+  padding-left: 25px;
+}
+
+button{
+  border-radius: 15px;
+  font-size: 20px;
+  cursor: pointer;
+}
+button:target{
+  border-color: red;
+}
